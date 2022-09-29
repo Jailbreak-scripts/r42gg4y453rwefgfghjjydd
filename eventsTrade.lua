@@ -16,13 +16,13 @@ function ghdf3292ngf923o13400jfggh984()
     --29.09.2022
     function buyEvent()
         local scriptPath = LocalScript
-        local closureName = "aoojkao0"
+        local closureName = "lu64slkp"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "ac0alb5j"
+        local elementIndex = "akjq55f0"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
