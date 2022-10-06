@@ -1,8 +1,8 @@
 local LocalScript = game:GetService("Players").LocalPlayer.PlayerScripts.LocalScript
 function ghdf3292ngf923o13400jfggh984()
-    print("Events lib by MrWorst#0856 | Version: 29.09.2022")
+    print("Events lib by MrWorst#0856 | Version: 06.10.2022")
     local aux = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Upbolt/Hydroxide/revision/ohaux.lua"))()
-    local mainEvent, moneyEvent, teamEvent, carEnterEvent, carExitEvent, buyEvent
+    local mainEvent, moneyEvent, teamEvent, carEnterEvent, carExitEvent
 
     function mainEvent()
         local scriptPath = LocalScript
@@ -13,68 +13,55 @@ function ghdf3292ngf923o13400jfggh984()
         return(debug.getupvalues(closure)[2])
     end
 
-    --29.09.2022
+    --06.10.2022
     function moneyEvent()
         local scriptPath = LocalScript
-        local closureName = "aoojkao0"
+        local closureName = "lcvct1fz"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "vtqevg96"
+        local elementIndex = "xf323bre"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --29.09.2022
+    --06.10.2022
     function teamEvent()
         local scriptPath = LocalScript
-        local closureName = "aoojkao0"
+        local closureName = "lcvct1fz"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "sxibofw5"
+        local elementIndex = "o5e8yzx8"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --29.09.2022
+    --06.10.2022
     function carEnterEvent()
         local scriptPath = LocalScript
-        local closureName = "aoojkao0"
+        local closureName = "lcvct1fz"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "rotli4g6"
+        local elementIndex = "gxeok0f9"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --29.09.2022
+    --06.10.2022
     function carExitEvent()
         local scriptPath = LocalScript
-        local closureName = "aoojkao0"
+        local closureName = "lcvct1fz"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "r5lya3cr"
-        return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
-    end
-
-    --29.09.2022
-    function buyEvent()
-        local scriptPath = LocalScript
-        local closureName = "aoojkao0"
-        local upvalueIndex = 2
-        local closureConstants = {
-            [1] = "hems"
-        }
-        local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "ac0alb5j"
+        local elementIndex = "gv153v8c"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
@@ -83,8 +70,7 @@ function ghdf3292ngf923o13400jfggh984()
         ["money"] = moneyEvent(),
         ["team"] = teamEvent(),
         ["carEnter"] = carEnterEvent(),
-        ["carExit"] = carExitEvent(),
-        ["buy"] = buyEvent()
+        ["carExit"] = carExitEvent()
     }
 end
 
