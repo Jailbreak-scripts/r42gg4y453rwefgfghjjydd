@@ -1,6 +1,6 @@
 local LocalScript = game:GetService("Players").LocalPlayer.PlayerScripts.LocalScript
 function ghdf3292ngf923o13400jfggh984()
-    print("Events lib by MrWorst#0856 | Version: 6.10.2022 MINIFED")
+    print("Events lib by MrWorst#0856 | Version: 8.10.2022 MINIFED")
     local aux = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Upbolt/Hydroxide/revision/ohaux.lua"))()
     local mainEvent, buyEvent
 
@@ -13,16 +13,16 @@ function ghdf3292ngf923o13400jfggh984()
         return(debug.getupvalues(closure)[2])
     end
 
-    --6.10.2022
+    --8.10.2022
     function buyEvent()
         local scriptPath = LocalScript
-        local closureName = "jdqkixoy"
+        local closureName = "de4npizm"
         local upvalueIndex = 2
         local closureConstants = {
             [1] = "hems"
         }
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex, closureConstants)
-        local elementIndex = "y9wf18nr"
+        local elementIndex = "rty45iqv"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
