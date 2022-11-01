@@ -9,7 +9,7 @@ _localPlayer_ = __players__.LocalPlayer or __players__.PlayerAdded:Wait()
 
 local LocalScript = _localPlayer_:WaitForChild("PlayerScripts", 15):WaitForChild("LocalScript", 15)
 function ghdf3292ngf923o13400jfggh984()
-    print("Events lib by TimLiz#2952 | Version: 30.10.2022")
+    print("Events lib by TimLiz#2952 | Version: 01.11.2022")
 
     local aux = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Upbolt/Hydroxide/revision/ohaux.lua"))()
     local mainEvent, moneyEvent, teamEvent, carEnterEvent, carExitEvent
@@ -23,43 +23,43 @@ function ghdf3292ngf923o13400jfggh984()
         return(debug.getupvalues(closure)[2])
     end
 
-    --30.10.2022
+    --01.11.2022
     function moneyEvent()
         local scriptPath = LocalScript
         local closureName = "EventFireServer"
         local upvalueIndex = 3
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex)
-        local elementIndex = "gn92j6c2"
+        local elementIndex = "y8gr6jx6"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --30.10.2022
+    --01.11.2022
     function teamEvent()
         local scriptPath = LocalScript
         local closureName = "EventFireServer"
         local upvalueIndex = 3
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex)
-        local elementIndex = "n5eank4h"
+        local elementIndex = "tvsp8jzm"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --30.10.2022
+    --01.11.2022
     function carEnterEvent()
         local scriptPath = LocalScript
         local closureName = "EventFireServer"
         local upvalueIndex = 3
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex)
-        local elementIndex = "ptl6jijp"
+        local elementIndex = "d1sdpol8"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
-    --30.10.2022
+    --01.11.2022
     function carExitEvent()
         local scriptPath = LocalScript
         local closureName = "EventFireServer"
         local upvalueIndex = 3
         local closure = aux.searchClosure(scriptPath, closureName, upvalueIndex)
-        local elementIndex = "u6bumjji"
+        local elementIndex = "xmz3g4e8"
         return(debug.getupvalue(closure, upvalueIndex)[elementIndex])
     end
 
